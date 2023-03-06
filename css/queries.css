@@ -1,0 +1,187 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid--3--cols {
+    gap: 2.4rem;
+  }
+}
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+  .row {
+    padding: 0 9.6rem;
+  }
+  .section-how {
+    padding-top: 9.6rem;
+  }
+  .testimonials-header {
+    font-size: 3.2rem;
+    margin-bottom: 4.8rem;
+  }
+  footer {
+    padding-top: 2.4rem;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    font-size: 48%;
+  }
+  footer {
+    padding-top: 2.4rem;
+  }
+  .section-how {
+    padding-top: 9.6rem;
+  }
+}
+@media (max-width: 48em) {
+  html {
+    font-size: 43.75%;
+  }
+  .row {
+    padding: 0 4.8rem;
+  }
+  .customers {
+    gap: 6.4rem;
+  }
+  .section-how {
+    padding-top: 9.6rem;
+  }
+  .hero-text-box {
+    margin-left: 4.8rem;
+  }
+  .customer-text::before {
+    font-size: 12.4rem;
+    left: -5%;
+    top: -60px;
+  }
+}
+@media (max-width: 34em) {
+  html {
+    font-size: 37.5%;
+  }
+  .row {
+    padding: 0 3.2rem;
+  }
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--3--cols {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .how-img {
+    justify-content: center;
+  }
+  .download-pic {
+    display: flex;
+    justify-content: center;
+  }
+  .section-how {
+    padding-top: 9.6rem;
+  }
+  .customers {
+    gap: 4.8rem;
+  }
+  .where {
+    flex-direction: column;
+    gap: 6.2rem;
+  }
+  .work-time {
+    flex-direction: column;
+    gap: 6.2rem;
+  }
+  .feature-header {
+    margin-bottom: 6.4rem;
+  }
+  nav {
+    display: none;
+  }
+  .heading-text-box {
+    position: relative;
+    padding: 3.2rem;
+  }
+  .heading-primary {
+    position: absolute;
+    left: 18%;
+    bottom: 0;
+    font-size: 4.2rem;
+  }
+  .heading-secondary {
+    font-size: 4.8rem;
+  }
+  .btn-mobile-full {
+    position: absolute;
+    left: 18%;
+    bottom: -10rem;
+  }
+  .btn-mobile-outline {
+    position: absolute;
+    left: 33%;
+    bottom: -10rem;
+  }
+  .grid--4--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature-text {
+    font-size: 2rem;
+  }
+  .work-time-text {
+    font-size: 2.4rem;
+  }
+  .heading-tertiary {
+    font-size: 3.2rem;
+  }
+  .how-text {
+    font-size: 2rem;
+  }
+  .where span {
+    font-size: 2.4rem;
+  }
+  .icon-where {
+    font-size: 2.4rem;
+  }
+  .price-text {
+    font-size: 2.4rem;
+  }
+  .testimonials-header {
+    margin-bottom: 1.2rem;
+  }
+  .customer-text::before {
+    display: none;
+  }
+}
+@media (max-width: 24em) {
+  html {
+    font-size: 31.25;
+  }
+  .customers {
+    gap: 2.4rem;
+  }
+  .customer-text::before {
+    display: none;
+  }
+  .testimonials-header {
+    padding: 2.4rem 9.6rem;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .heading-primary {
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+  }
+  .btn-mobile-full {
+    position: absolute;
+    left: 20%;
+    bottom: -10rem;
+  }
+  .btn-mobile-outline {
+    position: absolute;
+    left: 35%;
+    bottom: -10rem;
+  }
+}
